@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "burnToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "purchaseToken",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "dinesh",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"InheritanceModifier.sol": "InheritanceModifierExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"InheritanceModifier.sol": {
+			"keccak256": "0x0c6f4d4c6a68e3c702a617a3f51c2eded71c2c0578f1a0a1d01a168bf9f22269",
+			"urls": [
+				"bzz-raw://348de68fccd777a11f756f1829fab802baf7240016e2cc2840976061c7d864d2",
+				"dweb:/ipfs/QmZJ46FcnKa3TJ74HP2ehj5TMzwdGbqXeH31Qw7uC92GUN"
+			]
+		},
+		"Owned.sol": {
+			"keccak256": "0x21adb3661ec40975907cea5fd77db9b356c8c8a97fb156aa862ebb88d21db7a2",
+			"urls": [
+				"bzz-raw://1077dd59e0771bf1a79da0e4007c342d6b564562f911abb0fc91d838b4bfb0d6",
+				"dweb:/ipfs/QmUWWqjaRmvPiQVT6wySrA15DbtejWFLennEkiT42FYXdU"
+			]
+		}
+	},
+	"version": 1
+}

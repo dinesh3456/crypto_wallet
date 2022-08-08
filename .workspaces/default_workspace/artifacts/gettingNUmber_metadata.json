@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "dinesh",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_dinesh",
+						"type": "uint256"
+					}
+				],
+				"name": "setuint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"examplecontract.sol": "gettingNUmber"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"examplecontract.sol": {
+			"keccak256": "0x16674e317b0c9d13fb3be5120121c35661858cc6dd4d5b6d3fe02edaf40ee510",
+			"urls": [
+				"bzz-raw://caa7b2f317f7908704ec68b7f7392e10de995eaffc855cbbea666da61c721e12",
+				"dweb:/ipfs/QmZuM1J8ptAFWJhemTja48bYhqbLhkFqXCipVuuwmSE65G"
+			]
+		}
+	},
+	"version": 1
+}

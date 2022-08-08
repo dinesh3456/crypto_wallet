@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "taskCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"artifacts/TodoList.sol": "TodoList"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"artifacts/TodoList.sol": {
+			"keccak256": "0xee170319907ada0e1f572f8d43a3f8f3d3436312513e050bfaacabf25555dea0",
+			"urls": [
+				"bzz-raw://e4e019ce656a329895749cd2e289c7aa370e1c51f09e830888d053da83bd5cfe",
+				"dweb:/ipfs/Qmd7ZPFjDsNZLG1aifHxgCKhdkwSLYHk195Y7WvmaVavXR"
+			]
+		}
+	},
+	"version": 1
+}

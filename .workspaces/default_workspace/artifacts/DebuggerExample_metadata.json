@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_sum",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyuint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contrct.sol": "DebuggerExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contrct.sol": {
+			"keccak256": "0xe76f0c02553425dddb98c00acf97c79a9c9adc58faf1c221bcb1f6b549830754",
+			"urls": [
+				"bzz-raw://de51372b2b7a45d4624ff592874804e2269d83bd1f98d60f7050e1bcfe476993",
+				"dweb:/ipfs/QmR6zH3m82Pst3tfjf8iELHxGPWJ1B2ygUfFHJChYiwcUV"
+			]
+		}
+	},
+	"version": 1
+}
