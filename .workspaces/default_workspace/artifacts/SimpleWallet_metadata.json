@@ -255,10 +255,10 @@
 			]
 		},
 		"simpleWallet.sol": {
-			"keccak256": "0x363a27cbd156bc8f78469fa78447e335ff7342db2de14b9dc298ee6761305258",
+			"keccak256": "0x4bcf0bc0689ae225363dca1966e78e41cc091c5e6323c3ab1ad702093d5081da",
 			"urls": [
-				"bzz-raw://d12138035121c64743b7fc1c863368a7a80c16bbb00a87a14ba7b9f7e103c3ed",
-				"dweb:/ipfs/QmTQgMDqdf1wis6v188U6cndrCHzbampyp1tM5bKMq3YAc"
+				"bzz-raw://704358c19fc521cc4869bae9154b74dac135381ef7564db50fa16af85946495b",
+				"dweb:/ipfs/QmempoA5HW1NY72XkHjVLq9rLhnChyKosGSbx3WTTiJbKa"
 			]
 		}
 	},

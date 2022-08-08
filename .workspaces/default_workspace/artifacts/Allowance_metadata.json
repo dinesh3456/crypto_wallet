@@ -17,7 +17,7 @@
 					{
 						"indexed": true,
 						"internalType": "address",
-						"name": "_fromwhom",
+						"name": "_towhom",
 						"type": "address"
 					},
 					{
@@ -54,24 +54,6 @@
 				],
 				"name": "OwnershipTransferred",
 				"type": "event"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_who",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "addAllowance",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			},
 			{
 				"inputs": [
@@ -116,6 +98,24 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "_who",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setAllowance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "newOwner",
 						"type": "address"
 					}
@@ -149,7 +149,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Allowance.sol": "Allowance"
+			"PracticeAllowance.sol": "Allowance"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -163,11 +163,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"Allowance.sol": {
-			"keccak256": "0x19853e631dd6d1d00609cb885a0712a3c5e0705f0d594e7fd591f11097b4f18a",
+		"PracticeAllowance.sol": {
+			"keccak256": "0x15be5dfc69d9cb089c3ccddfe892e6208bda9b81fb75f75de9f23ed27ba568c5",
 			"urls": [
-				"bzz-raw://d12e65812c1a2f85a622dd6313ffbcef63c10d470c71b5328d47779dff39f8f5",
-				"dweb:/ipfs/Qmcg8bWpyDik3Smvwc5wKbxdhS6thVdWJdriok4Xc2uSyW"
+				"bzz-raw://7d3afc15135c1ad7e27323422d74a24166a4f393a1b8c9daba7a412c135a17a8",
+				"dweb:/ipfs/QmZBvmW3gFruA5juqKGWDL3G4Yvv38zFATGEQHQPS2x7qW"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
